@@ -41,6 +41,10 @@ Material:
         m_Texture: {fileID: 2800000, guid: a73c218e0d8156240a793d22710686d1, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _TerrainMap:
+        m_Texture: {fileID: 8600000, guid: 0490d36d3e660f94db232cd467db3c30, type: 2}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - unity_Lightmaps:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
@@ -56,10 +60,14 @@ Material:
     m_Ints: []
     m_Floats:
     - _AlphaThreshold: 0.5
-    - _HeightBlend: 0.428
+    - _DepthColorIntensity: 0.771
+    - _HeightBlend: 0.394
     - _QueueControl: 0
     - _QueueOffset: 0
     - _Smoothness: 0
+    - _TerrainColorIntensity: 0.646
+    - _TerrainOffset: 0
+    - _TerrainSize: 50
     m_Colors:
     - _BaseColor: {r: 0.6707526, g: 0.83396226, b: 0.43901032, a: 0}
     - _BottomColor: {r: 0.3003845, g: 0.554717, b: 0.51794314, a: 0}
