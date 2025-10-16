@@ -76,8 +76,8 @@ Material:
     - _USETERRAINCOLOR: 1
     - _WindHeight: 0.5
     - _WindIntensity: 0.4
-    - _WindNoiseSpeed: 0.5
-    - _WindSpeed: 0.06
+    - _WindNoiseSpeed: 0.45
+    - _WindSpeed: 0.1
     - _WindSpeedScale: 158.61
     m_Colors:
     - _BaseColor: {r: 0.51541257, g: 0.79514813, b: 0.38900095, a: 0}
