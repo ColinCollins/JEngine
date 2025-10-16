@@ -46,6 +46,10 @@ Material:
         m_Texture: {fileID: 8600000, guid: 0490d36d3e660f94db232cd467db3c30, type: 2}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _WindMap:
+        m_Texture: {fileID: 2800000, guid: f881cf62a2aa1db40bd7f36b61fbd732, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - unity_Lightmaps:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
@@ -61,20 +65,27 @@ Material:
     m_Ints: []
     m_Floats:
     - _AlphaThreshold: 0.5
-    - _DepthColorIntensity: 0.298
-    - _HeightBlend: 0.57
+    - _DepthColorIntensity: 0.315
+    - _HeightBlend: 0.395
     - _QueueControl: 0
     - _QueueOffset: 0
     - _Smoothness: 0
-    - _TerrainColorIntensity: 1
+    - _TerrainColorIntensity: 0.972
     - _TerrainOffset: 0
     - _TerrainSize: 50
     - _USETERRAINCOLOR: 1
+    - _WindHeight: 0.5
+    - _WindIntensity: 0.4
+    - _WindNoiseSpeed: 0.5
+    - _WindSpeed: 0.06
+    - _WindSpeedScale: 158.61
     m_Colors:
-    - _BaseColor: {r: 0.6707526, g: 0.83396226, b: 0.43901032, a: 0}
-    - _BottomColor: {r: 0.3003845, g: 0.554717, b: 0.51794314, a: 0}
+    - _BaseColor: {r: 0.51541257, g: 0.79514813, b: 0.38900095, a: 0}
+    - _BottomColor: {r: 0.3764706, g: 0.58431375, b: 0.5191837, a: 0}
     - _Diffuse: {r: 0.4341402, g: 0.8490566, b: 0.5157631, a: 0}
-    - _FarColor: {r: 0.3657789, g: 0.690566, b: 0.35831252, a: 0}
-    - _NearFarRange: {r: 6.2, g: 8.9, b: 0, a: 0}
-    - _ShadowColor: {r: 0.87169814, g: 0.63781077, b: 0.3996653, a: 0}
+    - _FarColor: {r: 0.28783202, g: 0.7142856, b: 0.48238388, a: 0}
+    - _NearFarRange: {r: 7, g: 20, b: 0, a: 0}
+    - _ShadowColor: {r: 0.74663067, g: 0.63400835, b: 0.4699144, a: 0}
+    - _WindNoiseContrast: {r: 0.14, g: 0.48, b: 0, a: 0}
+    - _WindSpeedScale: {r: 20, g: 40, b: 0, a: 0}
   m_BuildTextureStacks: []
