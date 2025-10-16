@@ -25,10 +25,11 @@ Material:
     type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
-  m_ValidKeywords: []
+  m_ValidKeywords:
+  - _USETERRAINCOLOR
   m_InvalidKeywords: []
   m_LightmapFlags: 2
-  m_EnableInstancingVariants: 0
+  m_EnableInstancingVariants: 1
   m_DoubleSidedGI: 0
   m_CustomRenderQueue: -1
   stringTagMap: {}
@@ -60,18 +61,20 @@ Material:
     m_Ints: []
     m_Floats:
     - _AlphaThreshold: 0.5
-    - _DepthColorIntensity: 0.771
-    - _HeightBlend: 0.394
+    - _DepthColorIntensity: 0.298
+    - _HeightBlend: 0.57
     - _QueueControl: 0
     - _QueueOffset: 0
     - _Smoothness: 0
-    - _TerrainColorIntensity: 0.646
+    - _TerrainColorIntensity: 1
     - _TerrainOffset: 0
     - _TerrainSize: 50
+    - _USETERRAINCOLOR: 1
     m_Colors:
     - _BaseColor: {r: 0.6707526, g: 0.83396226, b: 0.43901032, a: 0}
     - _BottomColor: {r: 0.3003845, g: 0.554717, b: 0.51794314, a: 0}
     - _Diffuse: {r: 0.4341402, g: 0.8490566, b: 0.5157631, a: 0}
     - _FarColor: {r: 0.3657789, g: 0.690566, b: 0.35831252, a: 0}
-    - _NearFarRange: {r: 2.54, g: 8.9, b: 0, a: 0}
+    - _NearFarRange: {r: 6.2, g: 8.9, b: 0, a: 0}
+    - _ShadowColor: {r: 0.87169814, g: 0.63781077, b: 0.3996653, a: 0}
   m_BuildTextureStacks: []
